@@ -1,0 +1,14 @@
+.dark {
+    background: #000;
+}
+
+.light {
+    background: #ccc;
+}
+
+.theme-switcher {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-family: Arial;
+}

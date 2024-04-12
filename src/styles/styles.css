@@ -1,0 +1,6 @@
+@import url('base.css');
+@import url('theme-switcher.css');
+
+.max-height {
+    height: 100vh;
+}
