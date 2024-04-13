@@ -1,0 +1,7 @@
+.light {
+    color: var(--dark-bg-color);
+}
+
+.dark {
+    color: var(--light-bg-color);
+}

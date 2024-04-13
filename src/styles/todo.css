@@ -1,0 +1,66 @@
+.todo-list {
+    padding: 5em;
+}
+
+.todo-list h1 {
+    font-size: 10em;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.todo-list input:not([type='checkbox']) {
+    width: 100%;
+    border: none;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    padding: 10px 20px;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    background: var(--light-bg-color);
+}
+
+.todo-list input:focus {
+    outline: none;
+}
+
+.todo-list .anticon-close {
+    width: 32px;
+    cursor: pointer;
+}
+
+.light .todo-list .anticon-close {
+    color: #000;
+}
+
+.todo-list .item {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.todo-list .item > span {
+    display: inline-block;
+    width: 100%;
+}
+
+.light .todo-list h1,
+.light .todo-list .item > span,
+.light .todo-list .ant-radio > span,
+.light .todo-list .ant-radio-group label span
+{
+    color: var(--dark-bg-color);
+}
+
+.dark .todo-list h1,
+.dark .todo-list .item > span,
+.dark .todo-list .ant-radio > span,
+.dark .todo-list .ant-radio-group label span
+{
+    color: var(--light-bg-color);
+}

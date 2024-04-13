@@ -1,6 +1,36 @@
+@import url("https://rsms.me/inter/inter.css");
 @import url('base.css');
 @import url('theme-switcher.css');
+@import url('async.css');
+@import url('todo.css');
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    filter: saturate(0);
+}
 
 .max-height {
     height: 100vh;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top {
+    top: 30px;
+}
+
+.right {
+    right: 30px;
+}
+
+.bottom {
+    bottom: 30px;
+}
+
+.left {
+    left: 30px;
 }
